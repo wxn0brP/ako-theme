@@ -1,0 +1,32 @@
+{
+	"license": "MIT",
+	"name": "wxn0brp-ako-theme",
+	"displayName": "Ako Theme",
+	"description": "Ako Theme",
+	"category": "themes",
+	"version": "0.0.1",
+	"author": {
+		"name": "wxn0brP"
+	},
+	"publisher": "wxn0brP",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wxn0brP/ako-theme"
+	},
+	"homepage": "https://github.com/wxn0brP/ako-theme",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ako Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ako-color-theme.json"
+			}
+		]
+	}
+}
